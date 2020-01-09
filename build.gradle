@@ -1,0 +1,72 @@
+/*
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'hello.HelloWorld'
+
+//this indicates that the build should resolve its dependencies
+//from the Maven Central repository.
+//Now we are ready for 3rd party libraries.
+
+repositories {
+    mavenCentral()
+}
+
+//some 3rd party libraries:
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+
+//here we are asking for 2.2 version of the joda-time
+//library, in the joda-time group.
+//It is a compile dependency, indicating that it should be
+//available during compile-time.
+//testCompile dependencies are used for compiling and running
+//tests, but not required for building or running the
+//project's runtime code.
+
+dependencies {
+    compile "joda-time:joda-time:2.2"
+    testCompile "junit:junit:4.12"
+}
+
+//specify the name for our JAR artifact
+//this specifies how the JAR file will be named
+//It will render gs-gradle-0.1.0.jar
+jar {
+    baseName = 'gs-gradle'
+    version = '0.1.0'
+}
+*/
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+
+mainClassName = 'hello.HelloWorld'
+
+// tag::repositories[]
+repositories {
+    mavenCentral()
+}
+// end::repositories[]
+
+// tag::jar[]
+jar {
+    baseName = 'gs-gradle'
+    version =  '0.1.0'
+}
+// end::jar[]
+
+// tag::dependencies[]
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile "joda-time:joda-time:2.2"
+    testCompile "junit:junit:4.12"
+}
+// end::dependencies[]
+
+// tag::wrapper[]
+// end::wrapper[]
