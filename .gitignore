@@ -11,3 +11,40 @@
 2_BuildingRESTfulWebService/.settings/
 2_BuildingRESTfulWebService/bin/
 2_BuildingRESTfulWebService/build/
+
+
+3_ConsumingRESTfulWebService/HELP.md
+3_ConsumingRESTfulWebService/.gradle
+3_ConsumingRESTfulWebService/build/
+3_ConsumingRESTfulWebService/!gradle/wrapper/gradle-wrapper.jar
+3_ConsumingRESTfulWebService/!**/src/main/**
+3_ConsumingRESTfulWebService/!**/src/test/**
+
+### STS ###
+3_ConsumingRESTfulWebService/.apt_generated
+3_ConsumingRESTfulWebService/.classpath
+3_ConsumingRESTfulWebService/.factorypath
+3_ConsumingRESTfulWebService/.project
+3_ConsumingRESTfulWebService/.settings
+3_ConsumingRESTfulWebService/.springBeans
+3_ConsumingRESTfulWebService/.sts4-cache
+
+### IntelliJ IDEA ###
+3_ConsumingRESTfulWebService/.idea
+3_ConsumingRESTfulWebService/*.iws
+3_ConsumingRESTfulWebService/*.iml
+3_ConsumingRESTfulWebService/*.ipr
+3_ConsumingRESTfulWebService/out/
+
+### NetBeans ###
+3_ConsumingRESTfulWebService/nbproject/private/
+3_ConsumingRESTfulWebService/nbbuild/
+3_ConsumingRESTfulWebService/dist/
+3_ConsumingRESTfulWebService/nbdist/
+3_ConsumingRESTfulWebService/.nb-gradle/
+
+### VS Code ###
+3_ConsumingRESTfulWebService/.vscode/
+
+### otros ###
+3_ConsumingRESTfulWebService/.gitignore
